@@ -1,0 +1,32 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar .navbar-nav .nav-link {
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+.card {
+    height: 200px;
+}
+
+.card .read-more:hover{
+    font-size: 15px;
+font: 1.3em sans-serif;
+font-weight: 600;
+color: #156dc5;
+text-decoration: none;
+}
+
+.card:hover{
+    box-shadow: 8px 8px 8px rgb(33, 97, 92);
+    transform:scale(1.2);
+ 
+}
+
+.card{
+  height:200px;
+  width:200px;
+  border:1px solid black;
+  transition:.3s;
+  margin: 3rem;
+}
